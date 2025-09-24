@@ -2,6 +2,12 @@ import yfinance as yf
 import pandas as pd
 import tensorflow as tf
 
+# Print versions
+print ("please keep an eye on vesrion printed below ")
+print("yfinance version:", yf.__version__)
+print("pandas version:", pd.__version__)
+print("tensorflow version:", tf.__version__)
+
 # 1. Load stock data (e.g., Apple - AAPL)
 data = yf.download("AAPL", start="2022-01-01", end="2023-01-01")
 
