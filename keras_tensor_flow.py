@@ -25,4 +25,4 @@ print("Training...")
 model.fit(X, Y, epochs=500, verbose=0)
 
 # Make a prediction
-print("Prediction for x=10.0 ->", model.predict([10.0]))
+print("Prediction for x=10.0 ->", model.predict(np.array([[10.0]])))
