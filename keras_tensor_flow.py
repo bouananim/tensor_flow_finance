@@ -3,8 +3,8 @@ import numpy as np
 
 # Print versions
 print ("please keep an eye on vesrion printed below ")
---print("yfinance version:", yf.__version__)
---print("pandas version:", pd.__version__)
+# print("yfinance version:", yf.__version__)
+# print("pandas version:", pd.__version__)
 print("tensorflow version:", tf.__version__)
 print("numpy version:", np.__version__)
 
