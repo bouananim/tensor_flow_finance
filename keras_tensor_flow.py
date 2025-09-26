@@ -1,12 +1,13 @@
 import tensorflow as tf
 import numpy as np
-
+import matplotlib.pyplot as plt
 # Print versions
 print ("please keep an eye on vesrion printed below ")
 # print("yfinance version:", yf.__version__)
 # print("pandas version:", pd.__version__)
 print("tensorflow version:", tf.__version__)
 print("numpy version:", np.__version__)
+print("matplotlib version:", plt.__version__)
 
 # Training data: y = 2x - 1
 X = np.array([-1.0, 0.0, 1.0, 2.0, 3.0, 4.0], dtype=float)
